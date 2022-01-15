@@ -1,0 +1,123 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.form-control,
+.input-group-text {
+  background-color: #f4f2f2;
+}
+#bg-logo {
+  max-width: 80%;
+  height: auto;
+}
+#signup {
+  color: rgba(49, 46, 129, 0.8);
+}
+#signup > a {
+  text-decoration: none;
+}
+#signup > a:hover {
+  text-decoration: underline;
+}
+label{
+  font-family: spectral;
+}
+input[type="checkbox"].custom-control-input {
+  border-radius: 100%;
+  color:rgba(49, 46, 129, 0.8)
+}
+#signin {
+  color: #18345e;
+  font-weight: 700;
+  font-family: spectral;
+  font-size: 48px;
+}
+.welcome {
+  font-family: spectral;
+  color: #fff;
+}
+
+#inlineRadio3,
+#inlineRadio2,
+#inlineRadio1,
+.form-check-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.form-check-input {
+  background-color: #2e4b76;
+}
+
+span#visibility:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+.left {
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background: #18345e;
+}
+
+button[type="submit"] {
+  background-color: #f0ab20;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.mobile-view {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-view {
+    display: block;
+  }
+
+  #bg-logo {
+    max-width: 35%;
+    height: auto;
+  }
+
+  .welcome {
+    color: #18345e;
+  }
+
+  .bg-light {
+    background-color: #fff;
+  }
+
+  #signin {
+    font-size: xx-large;
+  }
+
+  .mobile-view-form {
+    background-color: #18345e;
+    /* border-top-left-radius: 16px;
+    border-top-right-radius: 16px; */
+    border-radius: 16px;
+    color: white;
+  }
+
+  label.form-label,
+  .check-label {
+    font-size: 70%;
+  }
+
+  #signup {
+    color: white;
+  }
+}
+
+/* === === === Sign Up === === ===*/
+
+.check-label {
+}

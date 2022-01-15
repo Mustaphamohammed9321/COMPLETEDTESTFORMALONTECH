@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MALON_GLOBAL_WEBAPP", "..\MALON_GLOBAL_WEBAPP\MALON_GLOBAL_WEBAPP.csproj", "{E72FE495-09D9-4ADC-AAD7-226077AD9281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MALON_TEST.API", "..\MALON_TEST.API\MALON_TEST.API.csproj", "{617434D1-C0E6-4CF6-A163-76DE5BC9A0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72FE495-09D9-4ADC-AAD7-226077AD9281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72FE495-09D9-4ADC-AAD7-226077AD9281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72FE495-09D9-4ADC-AAD7-226077AD9281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72FE495-09D9-4ADC-AAD7-226077AD9281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617434D1-C0E6-4CF6-A163-76DE5BC9A0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617434D1-C0E6-4CF6-A163-76DE5BC9A0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617434D1-C0E6-4CF6-A163-76DE5BC9A0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617434D1-C0E6-4CF6-A163-76DE5BC9A0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC12547E-6169-483D-9FD5-B13D2688ECF4}
+	EndGlobalSection
+EndGlobal

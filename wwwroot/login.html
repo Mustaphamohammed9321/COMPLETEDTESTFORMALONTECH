@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - SAPP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="assets/css/fm.checkator.jquery.css" />
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/fm.checkator.jquery.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="container-fluid">
+      <section class="intro">
+        <row>
+          <div class="col-lg-6 col-md-6 col-sm-12 left">
+            <p>left panel</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 right">
+            <p>right panel</p>
+          </div>
+        </row>
+      </section>
+       <section class="about">
+      <div>
+        <p>About</p>
+      </div>
+    </section>
+    </div> -->
+
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <!-- The image half -->
+        <div class="col-md-6 d-none d-md-flex flex-column text-center left">
+          <div class="bg-image d-flex flex-column align-content-center justify-content-center text-center">
+            <img src="assets/img/Logo.png" class="m-auto img-fluid" id="bg-logo" alt="SAPP" />
+            <p class="h3 mt-4 text-center welcome">Welcome Back</p>
+            <p class="welcome">Just a couple of clicks and we start</p>
+          </div>
+          <div class="d-flex flex-row align-content-center justify-content-center">
+            <div class="form-check form-check-inline mx-1">
+              <input class="form-check-input checkator" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked />
+            </div>
+            <div class="form-check form-check-inline mx-1">
+              <input class="form-check-input checkator" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+            </div>
+            <div class="form-check form-check-inline mx-1">
+              <input class="form-check-input checkator" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
+            </div>
+          </div>
+        </div>
+
+        <!-- The content half -->
+        <div class="col-md-6 bg-light">
+          <div class="login d-flex align-items-center py-5">
+            <!-- Demo content-->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10 d-md-none col-xl-7 mx-auto">
+                  <div class="bg-image d-flex flex-column align-content-center justify-content-center text-center">
+                    <img src="assets/img/Logo.png" class="m-auto img-fluid" id="bg-logo" alt="SAPP" />
+                    <p class="h3 mt-4 text-center welcome">Welcome Aboard</p>
+                    <p class="welcome">Just a couple of clicks and we start</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-10 col-xl-7 mx-auto mobile-view-form">
+                  <h3 class="display-4" id="signin">Sign In</h3>
+                  <form>
+                    <div class="form-group mb-3">
+                      <label for="inputEmail" class="form-label">Email</label>
+                      <div class="input-group">
+                        <input
+                          id="inputEmail"
+                          type="email"
+                          required=""
+                          placeholder="johndoe@gmail.com"
+                          class="form-control border-0 px-2 text-muted"
+                        />
+                        <span onclick="" class="material-icons input-group-text border-0 text-muted">mail</span>
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="inputPassword" class="form-label">Password</label>
+                      <div class="input-group">
+                        <input
+                          id="inputPassword"
+                          type="password"
+                          required=""
+                          placeholder="••••••••••••••"
+                          class="form-control border-0 px-2 text-muted"
+                        />
+                        <span onmousedown="passReveal(getElementById('inputPassword'))" id="visibility" class="material-icons input-group-text border-0 text-muted"
+                          >visibility</span
+                        >
+                      </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block border-0 mt-3 w-100 shadow-sm">Sign in</button>
+                    <p class="text-center mt-1" id="signup">Don't have an account? <a href="signup.html"> Sign Up</a></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+        <!-- End -->
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
